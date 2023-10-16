@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    
+    width: 100%;
+    height: 40px;
+    background-color:#333333;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+}
+#nav h4{
+    font-size: 12px;
+    font-weight: 200;
+}
+#nav i{
+    font-size: 15px;
+}
+
+#home{
+    width: 100%;
+    
+    
+}
+#home #center{
+    height: 90vh;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center img{
+    width: 50%;
+    
+}
+
+    
+    
+    
+
+#heading{
+    
+    
+    
+    width: 60%;
+    height: 50px;
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+#heading h2{
+
+    color:#1F1F1F;
+    font-weight: 600;
+}
+#heading a{
+text-decoration: none;
+margin-left: 20px;
+color:rgb(70, 67, 67) ;
+font-size: 12px;
+}
+#rnav a:nth-child(1){
+    color:rgb(179, 170, 170);
+}
+#rnav button{
+    padding: 5px 15px;
+    background-color:royalblue;
+    border-radius: 50px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#second{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #FFFFFF;
+      
+   }
+#second #box{
+    width: 100%;
+    
+    display:flex;
+    overflow: hidden; 
+
+
+}
+#box #left{
+   
+ position: relative;
+    width: 50%;
+    height: 100vh;
+    
+}
+#left img{
+    
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+
+}
+#left #text{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+        
+    
+
+}
+#text h1{
+    font-size: 20px;
+    font-weight: 500;
+    rotate: -15deg;
+}
+#text h3{
+    font-size: 30px;
+    font-weight: 500;
+    rotate: -15deg;
+
+}
+
+
+#box #right{
+
+    position: relative;
+    
+    width: 50%;
+    height: 100vh;
+    
+}
+#right  img{
+position: absolute;
+top: 10%;
+    width: 100%;
+    object-fit: cover;
+}
+#right #text2{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+       
+  
+
+}
+#text2 h1{
+    font-size: 10px;
+    font-weight: 500;
+    rotate: 15deg;
+    
+}
+#text2 h3{
+    font-size: 25px;
+    font-weight: 500;
+    rotate: 15deg;
+
+}
+#third{position: relative;
+    width: 100%;
+    height: 150vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    overflow: hidden;
+}
+#text3{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+   
+}
+#text3 h1{
+    font-size: 90px;
+    text-align: center;
+    line-height: 1;
+    rotate: -25deg;
+}
+#image{
+    position: absolute;
+    bottom: 0%;
+    width: 70%;
+}
+#image img{
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+#fourth{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+
+
+}
+#heading1{
+    padding: 15px;
+    width: 100%;
+    color:rgb(203, 194, 194);
+    font-size: 13px;
+    font-weight: 300;
+
+    
+}
+
+#heading1 p span i{
+    font-size: 20px;
+    margin: 5px;
+    
+    
+}
+#top{
+padding:20px 50px;
+    color: rgb(203, 194, 194);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 300;
+}
+#top h5{
+    font-weight: 400;
+    font-size: 18px;
+}
+#top ul{
+    margin-top: 20px;
+}
+#top ul li{
+font-size: 12px;
+    margin-top: 10px;
+    list-style: none;
+}
+#btm{
+    color: royalblue;
+    padding:20px 50px;
+    
+
+}
+#btm span{
+    color:rgb(203, 194, 194);
+    font-weight: 300;
+}
+#btm #line{
+    margin-top: 20px;
+    
+    width: 100%;
+    height: 1px;
+    background-color: rgb(188, 183, 183);
+    
+}
+#foot{
+    padding:20px 50px;
+    color: rgb(203, 194, 194);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
